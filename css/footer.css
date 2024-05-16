@@ -204,4 +204,7 @@
 .main-footer .social-media a:hover {
   color: #fff;
 }
+.form-control{
+  font-size: 0.8rem;
+}
 }

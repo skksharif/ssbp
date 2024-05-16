@@ -6,7 +6,7 @@
 }
 
 .about-section .inner-container{
-    width: 55%;
+    max-width: 55%;
     background-color: #b4b2b270;
     backdrop-filter: blur(10px);
     border: 0.3px solid white;
@@ -31,32 +31,18 @@
 }
 
 
-@media screen and (max-width:1200px){
-    .about-section .inner-container{
-        padding: 80px;
-    }
-}
 
-@media screen and (max-width:1000px){
-    .about-section{
-        background-size: 100%;
-        padding: 100px 40px;
-    }
-    .about-section .inner-container{
-        width: 100%;
-    }
-}
-
-@media screen and (max-width:600px){
+@media screen and (max-width:780px){
     .about-section{
         padding: 20px;
         background-size: cover;
         
     }
     .about-section .inner-container{
-        width: 330px;
+        max-width: 300px;
         backdrop-filter: blur(10px);
         padding: 20px 10px;
+       
     }
     .about-section .text{
       font-size: 13px;
