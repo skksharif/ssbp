@@ -1,0 +1,279 @@
+.home-container{
+    background: linear-gradient(to right,rgba(255, 192, 203,0.8), rgba(252, 231, 234,0.4)), url('../images/home.jpg') top center no-repeat;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+}
+
+header .logo img{
+    width: 200px;
+    height: 95px;
+    object-fit: cover;
+}
+header .location{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .location p{
+    color: rgb(100, 0, 28);
+    text-align: right;
+}
+header .phone{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .phone p{
+    color: rgb(100, 0, 28);
+    text-align: right;
+}
+header .contact-icon i {
+  font-size: 20px;
+  padding: 13px 16px;
+  background-color: #ffffff40;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+header .location a p{
+    color: rgb(0, 132, 184);
+}
+header .phone a p{
+  color: rgb(0, 132, 184);
+}
+@media(max-width:767px){
+    header{
+        justify-content: center;
+    }
+    header .logo img{
+        width: 200px;
+    }
+    .yt{
+        display: none;
+    }
+    header .location{
+      display: none;
+    }
+    header .logo img{
+       width: 160px;
+       height: 90px;
+       object-fit: cover;
+    }
+    header .contact-icon i {
+      font-size: 15px;
+      padding: 8px 13px;
+      background-color: #ffffff40;
+      border-radius: 50%;
+      margin: 0 5px;
+    }
+    header p{
+      font-size: 14px;
+    }
+}
+.navbar{
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 0.4px solid rgba(255, 255, 255, 0.3); 
+    color: rgb(25, 25, 25);
+    z-index: 999;
+    width: 100%;
+    top: 5px;
+    position: sticky;
+    padding: 5px 0;
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  nav{
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  nav a{
+    margin: 0 25px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 3px 10px;
+    color: rgb(100, 0, 28);
+  }
+  nav a:hover{
+      background-color: aliceblue;
+      color: #333;
+  }
+  nav ul{
+    list-style: none;
+  }
+  nav ul ul{
+    display: none;
+  }
+  nav ul li:hover{
+    display: block;
+  }
+  .responsive{
+    display: none;
+  }
+  .menu-icon {
+    cursor: pointer;
+    padding: 3px 7px;
+    border: 0.1px solid white;
+    box-shadow: 0 0 5px 0 grey;
+    backdrop-filter: blur(3px);
+  }
+  .menu-icon div {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+    z-index: 10;
+  }
+  .show{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e1e1e;
+  }
+  .menu-icon.close div:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  .menu-icon.close div:nth-child(2) {
+    opacity: 0;
+  }
+  .menu-icon.close div:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  .show-navitems{
+    margin: 0 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    animation: mymove 1s;
+  }
+  @media(max-width:800px){
+ 
+      .menu-icon {
+          cursor: pointer;
+          padding: 2px 6px;
+          border: 0.1px solid rgb(0, 0, 0);
+          box-shadow: none;
+          backdrop-filter: blur(3px);
+      }
+      .menu-icon div {
+          width: 27px;
+          height: 2.5px;
+          background-color: rgb(0, 0, 0);
+          margin: 6px 0;
+          transition: 0.4s;
+          z-index: 10;
+        }
+     nav{
+      display: none;
+     }
+     .responsive{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+     } 
+     .responsive .nav-logo img{
+      width: 80px;
+      border-radius: 100%;
+      margin-left: 20px;
+    }
+    .responsive .menu-icon{
+      margin-right: 20px;
+    }
+     
+}
+/*Home Content*/
+.home-content{
+    width: 100%;
+    height:555px;
+    display: flex;
+    justify-content: start;
+}
+.home-content .welcome-banner{
+    width: 40%;
+    padding: 50px;
+    margin: 60px 0 0 110px;
+}
+.home-content .welcome-banner h1{
+    font-size: 45px;
+    padding: 10px 0;
+}
+.home-content .welcome-banner h1 strong{
+    color: rgb(100, 0, 28);
+    text-shadow: 0 0 3px rgba(125, 85, 99, 0.878);
+}
+.home-content .welcome-banner p{
+    text-align: justify;
+    padding: 10px 0;
+}
+.home-content .welcome-banner a{
+    text-decoration: none;
+}
+.home-content .welcome-banner a button{
+    border: none;
+    background-color: rgb(255, 65, 97);
+    color: white;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border-radius: 25px;  
+    transition: 0.3s;
+    font-size: 18px;
+    box-shadow: 0 0 5px 0 rgb(164, 103, 113);
+}
+.home-content .welcome-banner a button:hover{
+  box-shadow: 0 0 20px 0 rgb(255, 85, 114);
+  background-color: aliceblue;
+  color: rgb(115, 0, 19);
+}
+@media(max-width:768px){
+  .home-content{
+    height:555px;
+  }
+  .home-content .welcome-banner{
+    width: 90%;
+    padding: 50px;
+    margin: 0;
+   }
+   .home-content .welcome-banner h1{
+     font-size: 35px;
+     padding: 10px 0;
+   }
+   .home-content .welcome-banner h1 strong{
+      font-size: 35px;
+      color: rgb(100, 0, 28);
+      text-shadow: 0 0 3px rgba(125, 85, 99, 0.878);
+    }
+    .home-content .welcome-banner p{
+      text-align: justify;
+      padding: 8px 0;
+    }
+    .home-content .welcome-banner a button{
+      border: none;
+      background-color: rgb(255, 65, 97);
+      color: white;
+      padding: 10px 20px;
+      margin: 15px 0;
+      border-radius: 25px;
+      font-size: 15px;
+      box-shadow: 0 0 5px 0 rgb(164, 103, 113);
+  }
+  .home-content .welcome-banner a button:hover{
+    box-shadow: 0 0 20px 0 rgb(255, 85, 114);
+  }
+}

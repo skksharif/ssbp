@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    
+}
+body{
+    background-color: #eaa2b7;
+}
+body::-webkit-scrollbar{
+  display: none;
+}

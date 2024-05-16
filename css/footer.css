@@ -1,0 +1,207 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col{
+    max-width: 33%;
+    min-width: 300px
+}
+.main-footer{
+    padding-top: 40px;
+    background: linear-gradient(to right,rgba(126, 76, 84, 0.8), rgba(118, 118, 118, 0.4)), url('../images/footer.jpg') center no-repeat;
+    background-size: cover;
+}
+.footer-logo{
+    margin-left: 70px;
+}
+.footer-logo img{
+    width: 200px;
+    height: 115px;
+    object-fit: cover;
+}
+.main-footer h3{
+    color: #fff;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 1.375rem;
+}
+.col .contact{
+   display: flex;
+   align-items: center;
+   padding: 10px 0;
+}
+.col .contact i{
+    padding:0 8px 0 0;
+    color: white;
+}
+.col{
+    color: white;
+}
+.col a{
+    color: #fff;
+}
+.col p{
+    padding: 5px;
+}
+.col .form-group{
+    padding: 5px;
+}
+.main-footer .social-media{
+    margin-left: 85px;
+}
+.main-footer .social-media li {
+  display: inline;
+  margin: 0 5px;
+}
+.main-footer .social-media a {
+  display: inline-block;
+  color: #fee3ec;
+  padding: 10px 12px;
+}
+.main-footer .icon-fb a {
+  padding: 10px 14px;
+}
+.main-footer .icon-instagram a {
+  padding: 10px 9px;
+}
+.main-footer .social-media a:hover {
+  color: #fff;
+}
+.main-footer .copyright,
+.main-footer .copyright a {
+  color: #afd7eb;
+  padding-top: 100px;
+}
+.form-group {
+  display: flex;
+}
+.form-control {
+  display: block;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.25rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+}
+.form-group .btn {
+  color: #fff;
+  padding: 0.75rem;
+  background-color: #000;
+  border-radius: 0.25rem;
+  border: transparent;
+  letter-spacing: normal;
+}
+.form-group .btn:hover {
+  cursor: pointer;
+  background-color: #333;
+  border: transparent;
+}
+.submit-btn {
+  padding: 5px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff;
+  display: block;
+  border: 0;
+  font-weight: 700;
+  box-shadow: 0 0 14px -7px #ee6cff;
+  background-color: #ff709b;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.submit-btn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+.submit-btn:active {
+  transform: scale(0.95);
+}
+@media(max-width:767px) {
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .col{
+    margin: 0;
+    padding: 0;
+  }
+  .footer-logo{
+    margin-left: 0;
+}
+.footer-logo img{
+    width: 160px;
+    height: 95px;
+    padding: 10px 0;
+    object-fit: cover;
+}
+.main-footer h3{
+  color: #fff;
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 1.375rem;
+}
+.col .contact{
+ display: flex;
+ align-items: center;
+ padding: 10px 0;
+}
+.col .contact i{
+  padding:0 8px 0 0;
+}
+.main-footer .footer-sm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.main-footer ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+ .main-footer ul li {
+    display: inline;
+    margin: 0 5px;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    align-content: center;
+  }
+.main-footer .social-media{
+  margin-left: 0;
+}
+.main-footer ul li i{
+  font-size: 24px;
+}
+.main-footer ul li:hover i{
+  color: rgb(222, 0, 107);
+}
+.main-footer .social-media a {
+  display: inline-block;
+  color: #fee3ec;
+  padding: 10px 12px;
+}
+.main-footer .icon-fb a {
+  padding: 10px 14px;
+}
+.main-footer .icon-instagram a {
+  padding: 10px 9px;
+}
+.main-footer .social-media a:hover {
+  color: #fff;
+}
+}
