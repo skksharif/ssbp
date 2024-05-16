@@ -80,8 +80,8 @@
 .form-control {
   display: block;
   height: calc(1.5em + 0.75rem + 2px);
-  padding: 0.25rem 0.75rem;
-  font-size: 1rem;
+  padding: 0.25rem 0.60rem;
+  font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -91,7 +91,7 @@
 }
 .form-group .btn {
   color: #fff;
-  padding: 0.75rem;
+  padding: 0.6rem;
   background-color: #000;
   border-radius: 0.25rem;
   border: transparent;
@@ -103,7 +103,7 @@
   border: transparent;
 }
 .submit-btn {
-  padding: 5px 15px;
+  padding: 5px 5px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
@@ -111,7 +111,7 @@
   color: #fff;
   display: block;
   border: 0;
-  font-weight: 700;
+  font-weight: 600;
   box-shadow: 0 0 14px -7px #ee6cff;
   background-color: #ff709b;
   cursor: pointer;
